@@ -2,7 +2,7 @@ version: 1.0
 pipeline-when:
     equal:
         - << event.ref >>
-        - refs/heads/test
+        - refs/heads/master
 jobs:
   hello:
     steps:
